@@ -1,13 +1,18 @@
-// App.jsx
 import React from 'react';
-import ServicesPage from './ServicesPage';
+import SignupForm from "./components/SignupForm";
+import ImageCard from "./components/ImageCard";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <ServicesPage />
+    <div className="app-container">
+      <div className="form-section">
+        <SignupForm />
+      </div>
+      <div className="image-section">
+        <ImageCard />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
