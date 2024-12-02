@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .app-container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section {
+    flex: 1;
+    padding: 40px;
+    background-color: #ffffff;
+  }
+  
+  .signup-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .signup-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d9bca1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  .signup-form p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .signup-form a {
+    color: #d9bca1;
+    text-decoration: none;
+  }
+
+  
+  .image-section {
+    flex: 1;
+    background-color: #f9f5f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .image-card {
+    text-align: center;
+  }
+  
+  .image-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .image-card p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .image-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #d9bca1;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    margin-top: 20px; 
+  }
+  
+  .button-container button {
+    width: 100%; 
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .button-container button[type="submit"] {
+    background-color: #1b1b16;
+    color: #fff;
+  }
+  
+  .button-container button[type="button"] {
+    background-color: #0b0b0c;
+    color: #fff;
+  }
+  
+  .button-container button:hover {
+    opacity: 0.9;
+  }
+  
